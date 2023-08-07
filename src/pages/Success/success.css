@@ -1,0 +1,10 @@
+.success__section {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 100px;
+}
+.success__section span {
+  color: red;
+  cursor: pointer;
+}

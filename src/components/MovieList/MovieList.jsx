@@ -9,7 +9,6 @@ const MovieList = () => {
     const res = await fetch("https://api.tvmaze.com/search/shows?q=all");
     const data = await res.json();
     setMovies(data);
-    console.log(data);
   };
 
   useEffect(() => {
@@ -18,7 +17,7 @@ const MovieList = () => {
 
   return (
     <div className="movie__container">
-      <h1 className="main__heading">Latest Movies</h1>
+      <h1 className="main__heading">Latest Shows</h1>
       <div className="movies__section">
         {movies &&
           movies.map((movie) => {
