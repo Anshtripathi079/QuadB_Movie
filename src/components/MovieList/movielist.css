@@ -1,0 +1,18 @@
+.movie__container {
+  max-width: 1600px;
+  margin-inline: auto;
+  margin-top: 20px;
+}
+
+.main__heading {
+  text-align: center;
+}
+
+.movies__section {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  justify-items: center;
+  row-gap: 20px;
+}
