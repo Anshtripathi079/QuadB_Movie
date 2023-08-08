@@ -40,3 +40,26 @@
 .right__section button:hover {
   background-color: rgb(87, 19, 150);
 }
+@media screen and (max-width: 768px) {
+  .about_subsection {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .right__section {
+    min-width: 100%;
+    padding-inline: 40px;
+  }
+  .right__section h2 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .right__section {
+    padding-inline: 30px;
+  }
+  .about_subsection img {
+    width: 90%;
+  }
+}

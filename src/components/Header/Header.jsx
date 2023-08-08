@@ -1,9 +1,12 @@
+import { Link } from "react-router-dom";
 import "./header.css";
 const Header = () => {
   return (
-    <header className="header">
-      <span className="header__logo">QuadB Movies</span>
-    </header>
+    <div className="header">
+      <span className="header__logo">
+        <Link to="/"> QuadB Movies</Link>
+      </span>
+    </div>
   );
 };
 

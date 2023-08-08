@@ -9,7 +9,7 @@
   border-radius: 20px;
   margin-inline: auto;
   padding: 15px;
-  gap: 10px;
+  gap: 30px;
 }
 .booking__section input {
   padding: 5px;
@@ -19,7 +19,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
 }
 .radios {
   display: flex;

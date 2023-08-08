@@ -16,3 +16,18 @@
   justify-items: center;
   row-gap: 20px;
 }
+@media screen and (max-width: 1024px) {
+  .movies__section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .movies__section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 425px) {
+  .movies__section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

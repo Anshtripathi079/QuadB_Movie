@@ -1,4 +1,5 @@
-import { useEffect } from "react";
+import { Suspense, useEffect } from "react";
+import React from "react";
 import "./movielist.css";
 import { useState } from "react";
 import MovieCard from "../MovieCard/MovieCard";

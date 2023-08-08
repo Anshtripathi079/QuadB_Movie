@@ -5,7 +5,7 @@ const Success = () => {
     <div className="success__section">
       Booking Successfull Go to{" "}
       <Link to="/">
-        <span>Home</span>
+        <span>Home Page</span>
       </Link>
     </div>
   );
